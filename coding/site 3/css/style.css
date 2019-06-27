@@ -178,3 +178,40 @@ body{
     width: 6px;
     height: 6px;
 }
+.wrapper-article{
+    margin-top: 200px;
+    /* width: 75%; */
+}
+.article-head h3{
+    display: inline;
+    font-size: 16px;
+    color:#412d50;
+}
+.article-head>a{
+    float: right;
+    color:#412d50;
+    font-size: 12px;
+    padding-bottom: 10px ;
+    border-bottom:#ef2d6c 4px solid;
+}
+.article-body{
+    margin-top:45px;
+}
+.article-body img{
+    width: 140px;
+    height: 140px;
+}
+.badge-style{
+    background: #e6f8fa !important;
+    color:#3da5c0;
+}
+.badge-style:hover{
+    background: #ef2d6c !important;
+}
+.media-body-text{
+    margin-top: 20px;
+    font-size:16px ;
+}
+.l{
+    outline: red 1px solid;
+}
