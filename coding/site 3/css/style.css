@@ -2,6 +2,66 @@
     margin: 0;
     padding: 0;
 }
-.bg>img{
+.header-wrapper{
+    position: relative;
+    height: 828px;
+    outline: red 1px solid;
+    /* height: 2800px; */
+}
+.images-bg{
+    /* height: 400px; */
+    outline: red 1px solid;
+}
+.images-bg>img{
+    position: absolute;
+}
+.top-image{
+    width: 80.5%;
+    top:0;
+    left: 0;
+}
+.middle-image{
+    width: 30%;
+    top:28.5%;
+    right:15.5%;
+    z-index: 3;
+}
+.right-image{
+    width: 45%;
+    right: 0;
+    /* top:14.5%; */
+    top:48.5%;
+}
+.navigation{
+    margin-left:5%;
+}
+.navigation ul{
+    margin-left:40px; 
+}
+.navigation-list>li{
+    padding-right:30px; 
+    font-family: 'Trebuchet MS' !important;
+}
+.line-through:hover{
+    background: url(../images/line.png);
+    background-repeat: repeat-x;
     /* width: 100%; */
+    background-position: center; 
+}
+.link-enter{
+    font-family: 'Trebuchet MS' !important;
+    color:#462c59 !important;
+    float: right;
+    padding: 10px 0;
+    margin-right:5%;
+    border-bottom:#ef2d6c 4px solid;
+}
+.title{
+    position: absolute;
+    top:45%;
+    left:14%;
+    font-family: 'Trebuchet MS' !important;
+}
+.title>h1{
+    font-size: 60px ;
 }
